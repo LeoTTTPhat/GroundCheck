@@ -1,0 +1,35 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "n_items": 30,
+  "n_queries": 60,
+  "backends": [
+    "no_signal",
+    "with_signal"
+  ],
+  "identical_answer_rate": 0.9,
+  "acc_bfloat16": 0.4167,
+  "acc_float32": 0.4333,
+  "acc_diff": -0.0167,
+  "acc_diff_ci": [
+    -0.0833,
+    0.0333
+  ],
+  "mcnemar_p": 1.0,
+  "equivalent_at_0.05": false,
+  "degenerate_bfloat16": 0,
+  "degenerate_float32": 0,
+  "per_backend": {
+    "no_signal": {
+      "identical_answer_rate": 0.9667,
+      "acc_bfloat16": 0.4333,
+      "acc_float32": 0.4333,
+      "n": 30
+    },
+    "with_signal": {
+      "identical_answer_rate": 0.8333,
+      "acc_bfloat16": 0.4,
+      "acc_float32": 0.4333,
+      "n": 30
+    }
+  }
+}
