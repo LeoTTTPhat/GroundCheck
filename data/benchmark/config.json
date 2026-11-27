@@ -1,0 +1,18 @@
+{
+  "seed": 0,
+  "out": "data/benchmark",
+  "target_fs": 10.0,
+  "max_samples": 120,
+  "n_peak_ucihar": 120,
+  "n_freq_ucihar": 120,
+  "n_intensity": 120,
+  "n_peak_wisdm": 80,
+  "n_freq_wisdm": 80,
+  "n_trans_pamap2": 120,
+  "n_peak_pamap2": 60,
+  "n_freq_pamap2": 60,
+  "n_intensity_pamap2": 60,
+  "n_trans_spliced": 60,
+  "n_bout": 80,
+  "n_contam_pairs": 60
+}

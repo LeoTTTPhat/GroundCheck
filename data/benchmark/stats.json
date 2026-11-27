@@ -1,0 +1,36 @@
+{
+  "n_items": 1036,
+  "n_counterfactual_variants": 2254,
+  "per_family": {
+    "peak_count": 304,
+    "dominant_freq": 304,
+    "intensity_order": 180,
+    "transition_time": 168,
+    "bout_duration": 80
+  },
+  "per_source": {
+    "ucihar_peak": 104,
+    "ucihar_freq": 104,
+    "ucihar_intensity": 120,
+    "ucihar_spliced_transition": 60,
+    "ucihar_bout": 80,
+    "ucihar_contam_pairs": 60,
+    "wisdm_peak": 80,
+    "wisdm_freq": 80,
+    "pamap2_transition_real": 108,
+    "pamap2_peak": 60,
+    "pamap2_freq": 60,
+    "pamap2_intensity": 60
+  },
+  "per_dataset": {
+    "ucihar": 588,
+    "wisdm": 160,
+    "pamap2": 288
+  },
+  "real_transition_items": 108,
+  "datasets_used": [
+    "ucihar",
+    "wisdm_v1.1",
+    "pamap2"
+  ]
+}
