@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "ucihar.zip",
+    "url": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+    "size_bytes": 61005872,
+    "sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031"
+  },
+  {
+    "filename": "wisdm_v11.tar.gz",
+    "url": "https://www.cis.fordham.edu/wisdm/includes/datasets/latest/WISDM_ar_latest.tar.gz",
+    "size_bytes": 11404612,
+    "sha256": "e573791269aab4a629721cf04b6031b7cbf8e14261cd2bc86e65887a2bc592d7"
+  },
+  {
+    "filename": "pamap2.zip",
+    "url": "https://archive.ics.uci.edu/static/public/231/pamap2+physical+activity+monitoring.zip",
+    "size_bytes": 688226940,
+    "sha256": "76b3580bd5a804121f507717cb498c66a312ef5c774f4a78ac470e6558add352"
+  }
+]
