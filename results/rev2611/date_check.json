@@ -1,0 +1,39 @@
+{
+ "note": "gpt-oss-120b raw-text items whose answer changed between the 25 Nov and 26 Nov runs, resent with the prompt date pinned (scripts/rev2611_date_check.py). Both recorded answers are reproduced exactly when the date line matches.",
+ "n": 4,
+ "reproduced_both": 4,
+ "rows": [
+  {
+   "item_id": "gc-00059",
+   "family": "peak_count",
+   "recorded_25": "12.0",
+   "raw_25": "12.0",
+   "recorded_26": "24.0",
+   "raw_26": "24.0"
+  },
+  {
+   "item_id": "gc-00015",
+   "family": "peak_count",
+   "recorded_25": "10.0",
+   "raw_25": "10.0",
+   "recorded_26": "24.0",
+   "raw_26": "24.0"
+  },
+  {
+   "item_id": "gc-00682",
+   "family": "dominant_freq",
+   "recorded_25": "1.2",
+   "raw_25": "1.2",
+   "recorded_26": "1.5",
+   "raw_26": "1.5"
+  },
+  {
+   "item_id": "gc-00755",
+   "family": "transition_time",
+   "recorded_25": "10.0",
+   "raw_25": "10.0",
+   "recorded_26": "3.0",
+   "raw_26": "3.0"
+  }
+ ]
+}

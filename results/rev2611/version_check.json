@@ -1,0 +1,29 @@
+{
+ "qwen3-8b-thinkFalse": {
+  "old_version": "0.40.17",
+  "new_version": "0.40.18",
+  "n": 91,
+  "identical_prediction": 1.0,
+  "identical_correctness": 1.0,
+  "acc_old": 0.286,
+  "acc_new": 0.286,
+  "backends": [
+   "no_signal",
+   "with_signal"
+  ],
+  "per_family": 10
+ },
+ "gpt-oss-120b-thinklow": {
+  "old_version": "0.40.17",
+  "new_version": "0.40.18",
+  "n": 25,
+  "identical_prediction": 0.52,
+  "identical_correctness": 0.72,
+  "acc_old": 0.52,
+  "acc_new": 0.72,
+  "backends": [
+   "with_signal"
+  ],
+  "per_family": 5
+ }
+}

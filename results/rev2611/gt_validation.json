@@ -1,0 +1,268 @@
+{
+  "regenerated_items": 1036,
+  "reference_items": 1036,
+  "regeneration_mismatches": [],
+  "n_mismatch": 0,
+  "main_subset": {
+    "peak_count": {
+      "n": 60,
+      "agree_within_tolerance": {
+        "band_0.3-3Hz": 0.667,
+        "band_0.5-3Hz": 0.683,
+        "band_0.8-4Hz": 0.85,
+        "dist_0.3s": 0.767,
+        "dist_0.4s": 0.567,
+        "duration_over_acf_period": 0.35,
+        "duration_x_welch_freq": 0.717,
+        "prom_0.15sd": 0.867,
+        "prom_0.5sd": 0.967,
+        "upward_zero_crossings": 0.9
+      },
+      "cadence_spm_by_activity": {
+        "ascending_stairs": {
+          "n": 3,
+          "median": 130.0,
+          "p10": 122.0,
+          "p90": 138.0
+        },
+        "cycling": {
+          "n": 2,
+          "median": 172.5,
+          "p10": 154.5,
+          "p90": 190.5
+        },
+        "descending_stairs": {
+          "n": 2,
+          "median": 180.0,
+          "p10": 148.0,
+          "p90": 212.0
+        },
+        "jogging": {
+          "n": 2,
+          "median": 157.5,
+          "p10": 155.5,
+          "p90": 159.5
+        },
+        "nordic_walking": {
+          "n": 2,
+          "median": 115.0,
+          "p10": 111.0,
+          "p90": 119.0
+        },
+        "rope_jumping": {
+          "n": 3,
+          "median": 130.0,
+          "p10": 82.0,
+          "p90": 134.0
+        },
+        "running": {
+          "n": 2,
+          "median": 140.0,
+          "p10": 136.0,
+          "p90": 144.0
+        },
+        "walking": {
+          "n": 20,
+          "median": 122.5,
+          "p10": 109.5,
+          "p90": 152.0
+        },
+        "walking_downstairs": {
+          "n": 12,
+          "median": 115.0,
+          "p10": 105.5,
+          "p90": 167.0
+        },
+        "walking_upstairs": {
+          "n": 12,
+          "median": 110.0,
+          "p10": 100.0,
+          "p90": 133.5
+        }
+      },
+      "items_all_param_variants_agree": 0.45,
+      "items_majority_param_variants_agree": 0.75
+    },
+    "dominant_freq": {
+      "n": 60,
+      "agree_within_tolerance": {
+        "autocorr": 0.583,
+        "periodogram": 0.967,
+        "welch_2s": 0.967,
+        "welch_8s": 0.983,
+        "zero_cross": 0.717
+      },
+      "harmonic_disagreement_rate": {
+        "periodogram": 0.0,
+        "welch_2s": 0.0,
+        "welch_8s": 0.0,
+        "autocorr": 0.4,
+        "zero_cross": 0.033
+      }
+    },
+    "intensity_order": {
+      "n": 60,
+      "agree_within_tolerance": {
+        "mean_abs_jerk": 0.967,
+        "rms_highpass": 1.0,
+        "std_magnitude": 0.95
+      },
+      "min_sma_ratio": 1.632
+    },
+    "transition_time_real": {
+      "n": 30,
+      "agree_within_tolerance": {
+        "raw_label_boundary": 0.067,
+        "shown_placement_changepoint": 1.0
+      },
+      "median_annotation_lag_s": 4.595,
+      "median_abs_shown_vs_gt_s": 0.13999999999999946
+    },
+    "transition_time_spliced": {
+      "n": 30,
+      "agree_within_tolerance": {
+        "energy_changepoint": 0.967
+      }
+    },
+    "bout_duration": {
+      "n": 60,
+      "agree_within_tolerance": {
+        "energy_bout_smooth_0.5s": 0.667,
+        "energy_bout_smooth_1.5s": 0.85,
+        "energy_bout_smooth_3.0s": 0.567
+      }
+    }
+  },
+  "full_pool": {
+    "peak_count": {
+      "n": 244,
+      "agree_within_tolerance": {
+        "band_0.3-3Hz": 0.713,
+        "band_0.5-3Hz": 0.725,
+        "band_0.8-4Hz": 0.926,
+        "dist_0.3s": 0.791,
+        "dist_0.4s": 0.557,
+        "duration_over_acf_period": 0.352,
+        "duration_x_welch_freq": 0.783,
+        "prom_0.15sd": 0.926,
+        "prom_0.5sd": 0.971,
+        "upward_zero_crossings": 0.91
+      },
+      "cadence_spm_by_activity": {
+        "ascending_stairs": {
+          "n": 7,
+          "median": 120.0,
+          "p10": 110.0,
+          "p90": 137.0
+        },
+        "cycling": {
+          "n": 7,
+          "median": 165.0,
+          "p10": 132.0,
+          "p90": 183.0
+        },
+        "descending_stairs": {
+          "n": 10,
+          "median": 140.0,
+          "p10": 123.0,
+          "p90": 202.0
+        },
+        "jogging": {
+          "n": 20,
+          "median": 160.0,
+          "p10": 149.5,
+          "p90": 175.0
+        },
+        "nordic_walking": {
+          "n": 13,
+          "median": 110.0,
+          "p10": 92.0,
+          "p90": 124.0
+        },
+        "rope_jumping": {
+          "n": 8,
+          "median": 122.5,
+          "p10": 87.5,
+          "p90": 131.5
+        },
+        "running": {
+          "n": 8,
+          "median": 140.0,
+          "p10": 123.5,
+          "p90": 145.0
+        },
+        "walking": {
+          "n": 82,
+          "median": 120.0,
+          "p10": 105.0,
+          "p90": 150.0
+        },
+        "walking_downstairs": {
+          "n": 40,
+          "median": 120.0,
+          "p10": 100.0,
+          "p90": 151.5
+        },
+        "walking_upstairs": {
+          "n": 49,
+          "median": 110.0,
+          "p10": 95.0,
+          "p90": 136.0
+        }
+      },
+      "items_all_param_variants_agree": 0.5,
+      "items_majority_param_variants_agree": 0.787
+    },
+    "dominant_freq": {
+      "n": 244,
+      "agree_within_tolerance": {
+        "autocorr": 0.525,
+        "periodogram": 0.947,
+        "welch_2s": 0.967,
+        "welch_8s": 0.955,
+        "zero_cross": 0.791
+      },
+      "harmonic_disagreement_rate": {
+        "periodogram": 0.016,
+        "welch_2s": 0.004,
+        "welch_8s": 0.012,
+        "autocorr": 0.434,
+        "zero_cross": 0.025
+      }
+    },
+    "intensity_order": {
+      "n": 180,
+      "agree_within_tolerance": {
+        "mean_abs_jerk": 0.961,
+        "rms_highpass": 1.0,
+        "std_magnitude": 0.956
+      },
+      "min_sma_ratio": 1.511
+    },
+    "transition_time_real": {
+      "n": 108,
+      "agree_within_tolerance": {
+        "raw_label_boundary": 0.056,
+        "shown_placement_changepoint": 1.0
+      },
+      "median_annotation_lag_s": -2.06,
+      "median_abs_shown_vs_gt_s": 0.18500000000000005
+    },
+    "transition_time_spliced": {
+      "n": 60,
+      "agree_within_tolerance": {
+        "energy_changepoint": 0.95
+      }
+    },
+    "bout_duration": {
+      "n": 80,
+      "agree_within_tolerance": {
+        "energy_bout_smooth_0.5s": 0.65,
+        "energy_bout_smooth_1.5s": 0.838,
+        "energy_bout_smooth_3.0s": 0.537
+      }
+    }
+  },
+  "n_rows_main": 300,
+  "n_rows_pool": 916
+}
