@@ -1,0 +1,1 @@
+{"model": "qwen3:8b", "tag": "qwen3-8b-thinkFalse-wording", "think": false, "ollama_version": "0.40.18", "answer_tokens": 1024, "code_tokens": 1024, "think_budget": 0, "num_ctx": 8192, "tier": "C", "per_family": null, "started": "2026-11-26 13:28:21"}

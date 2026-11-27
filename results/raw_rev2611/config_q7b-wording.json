@@ -1,0 +1,1 @@
+{"model": "Qwen/Qwen2.5-7B-Instruct", "tag": "q7b-wording", "think": null, "ollama_version": null, "answer_tokens": 128, "code_tokens": 384, "think_budget": 0, "num_ctx": 8192, "tier": "B", "per_family": null, "started": "2026-11-26 16:48:14"}

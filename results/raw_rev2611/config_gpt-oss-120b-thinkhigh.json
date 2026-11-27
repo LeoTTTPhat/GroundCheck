@@ -1,0 +1,2 @@
+{"model": "gpt-oss:120b", "tag": "gpt-oss-120b-thinkhigh", "think": "high", "ollama_version": "0.40.18", "answer_tokens": 1024, "code_tokens": 1024, "think_budget": 16384, "num_ctx": 24576, "tier": "C", "per_family": 5, "started": "2026-11-26 15:06:37"}
+{"model": "gpt-oss:120b", "tag": "gpt-oss-120b-thinkhigh", "think": "high", "ollama_version": "0.40.18", "answer_tokens": 1024, "code_tokens": 1024, "think_budget": 16384, "num_ctx": 24576, "tier": "C", "per_family": 1, "started": "2026-11-27 01:39:02"}
